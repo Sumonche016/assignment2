@@ -3,6 +3,11 @@
 /*      this is for rest  ------
 */
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
 }
@@ -190,4 +195,61 @@ span.ratings-number {
     font-weight: 700;
     margin-left: 1rem;
     color: var(--color-gray-text);
+}
+
+a.see {
+    font-size: 1.6rem;
+    text-align: right;
+    display: block;
+    grid-column: 1/-1;
+    color: var(--btn-bg);
+}
+
+a.see .fas {
+    margin-left: 5px;
+}
+
+
+/* footer style start here  */
+
+.footer-area {
+    background-color: #0A0826;
+    color: #fff;
+    text-align: center;
+    padding: 3.5rem 0;
+}
+
+h1.footer-tittle {
+    font-size: 2.4rem;
+    margin-bottom: .5rem;
+}
+
+p.copright {
+    font-size: 1.4rem;
+    color: #D9DBE1;
+}
+
+.icon-box {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.icon-box .fab {
+    font-size: 1.5rem;
+}
+
+.single-icon {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background-color: #22213C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1.3rem;
+}
+
+.single-icon:last-child {
+    margin: 0;
 }
