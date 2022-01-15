@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/*      this is for rest  ------
+*/
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+    /* 10/16=0.625=62.55= 1rem=10px; */
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+:root {
+    --primary-color: #3A3A3A;
+    --btn-bg: #E02C6D;
+}
+
+.btn {
+    border-radius: 24px;
+    padding: 1.1rem 2.5rem;
+    display: inline-block;
+    border: none;
+    margin-top: 2rem;
+    background-color: var(--btn-bg);
+}
+
+
+/* heder style start here  */
+
+header {
+    font-size: 1.6rem;
+    padding: 5rem 0;
+}
+
+.header-container {
+    width: 80%;
+    margin: 0 auto;
+    color: var(--primary-color);
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+}
+
+.nav-item .nav-link {
+    color: var(--primary-color);
+    margin-right: 3rem;
+    display: inline-block;
+    font-weight: 500;
+}
+
+
+/* .nav-link:not(:last-child) {
+    margin-right: 2rem;
+}
+ */
+
+
+/* .nav-item .nav-link:not(:last-child) {
+    margin-right: 2rem;
+} */
+
+
+/* .nav-link:last-child {
+    margin: 0;
+} */
+
+.journey-section {
+    display: flex;
+    align-items: center;
+    padding: 4rem 0;
+}
+
+.journey-text {
+    width: 50%;
+    padding-right: 2rem;
+}
+
+.journey-text .journey-tittle {
+    font-size: 4rem;
+}
+
+.journey-text .journey-description {
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.journey-img {
+    width: 50%;
+    padding-left: 3rem;
+}
+
+.journey-img img {
+    margin: 0 auto;
+    display: inherit;
+    padding-left: 8rem;
+}
+
+.btn .btn-link {
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.btn .btn-link .fa-arrow-right {
+    padding-left: 10px;
+}
